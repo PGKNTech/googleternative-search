@@ -17,8 +17,9 @@ h3
 { 
 	font-family: 'Comfortaa';
 	font-size: 117%;
-        text-align: justify;
+        text-align: left;
         font-weight: 500;
+	color: #ffffff;
 }
 
 p
@@ -36,8 +37,8 @@ p
 
 footer {
 	background-color: #404040;
-	text-align: center;
-	padding: 60px;
+	text-align: left;
+	padding: 60px 3px;
 	position: fixed;
 	width: 100%;
 	height: auto;
