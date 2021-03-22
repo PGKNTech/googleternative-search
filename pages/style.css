@@ -34,6 +34,17 @@ p
     font-weight: bold;
 }    
 
+footer {
+	background-color: #404040;
+	text-align: center;
+	padding: 60px;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	left: 0;
+}
+
 a:-webkit-any-link 
 {
     font-family: Arial;
