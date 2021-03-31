@@ -59,7 +59,14 @@ a:-webkit-any-link
     margin-bottom:12px;
 }
 
+.logo, img {
+height: 102px;
+width: 102px;
+background-color: transparent;
+float: right;
+margin-top: -90px;
 
+}
 
 /* ===========================
    ====== Search Box ====== 
