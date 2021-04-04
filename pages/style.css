@@ -33,7 +33,7 @@ p
     line-height: 18px;
     padding: 5px;
     font-weight: bold;
-}    
+}
 
 footer {
 	background-color: #404040;
@@ -59,7 +59,14 @@ a:-webkit-any-link
     margin-bottom:12px;
 }
 
+.logo, img {
+height: 102px;
+width: 102px;
+background-color: transparent;
+float: right;
+margin-top: -90px;
 
+}
 
 /* ===========================
    ====== Search Box ====== 
@@ -76,14 +83,14 @@ a:-webkit-any-link
 {
 	background-color: #ffffff;
 	font-family: 'Comfortaa';
-	font-size: 200%;
+	font-size: 220%;
 	border-style: solid;
 	border-width: 3px;
 	border-radius: 70px;
 	width: 99%;
-	height: 5%;
+	height: auto;
 	padding: 10px 10px;
-        text-align: left;
+                text-align: left;
 }
 
 .search input[type="text"]:focus
@@ -92,7 +99,7 @@ a:-webkit-any-link
 }
 
 /* ===========================
-   ====== Medua Query for Search Box ====== 
+   ====== Media Query for Search Box ====== 
    =========================== */
 
 @media only screen and (min-width : 100%) and (max-width : 100%)
