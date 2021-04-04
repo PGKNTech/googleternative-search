@@ -83,14 +83,14 @@ margin-top: -90px;
 {
 	background-color: #ffffff;
 	font-family: 'Comfortaa';
-	font-size: 200%;
+	font-size: 220%;
 	border-style: solid;
 	border-width: 3px;
 	border-radius: 70px;
 	width: 99%;
-	height: 5.7%;
+	height: auto;
 	padding: 10px 10px;
-        text-align: left;
+                text-align: left;
 }
 
 .search input[type="text"]:focus
@@ -99,7 +99,7 @@ margin-top: -90px;
 }
 
 /* ===========================
-   ====== Medua Query for Search Box ====== 
+   ====== Media Query for Search Box ====== 
    =========================== */
 
 @media only screen and (min-width : 100%) and (max-width : 100%)
